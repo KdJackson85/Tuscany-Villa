@@ -1,0 +1,172 @@
+﻿body{
+    background-color:#d2d2d2;
+}
+
+
+/*Header CSS*/
+.header {
+    height:220px;
+    background-color:#d2d2d2;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    
+}
+
+.headerTxt1{
+    font-family:Meriweather;
+    font-size: 40px;
+    color:#645865;
+    text-align:center;
+    padding:0px;
+}
+
+.headerTxt2{
+    font-size:35px;
+    text-align:center;
+    font-family:'Sahitya';
+    font-style:oblique;
+    font-weight:100;
+
+}
+
+/*First text CSS*/
+
+.largeCoverText{  /*Feel Like Home...Big*/
+    font-family:Georgia;
+    background-color:#3f4442;
+    color:white;
+    opacity:.75;
+    font-weight:normal;
+    font-size:100px;
+    position: absolute;
+    top: 190px;
+    left:37px;
+    margin-left:118px;
+    
+   }
+.smallCoverText{ /*Find Your Exclusive...smaller*/
+    font-family:Georgia;
+    background-color:#3f4442;
+    color:white;
+    opacity:.75;
+    font-weight:normal;
+    font-size:25px;
+    position: absolute;
+    top: 220px;
+    left:62px;
+    margin-left:110px;
+}
+
+/*Second Picture Text*/
+.VersiliaTextLg { /*Find Your Tuscany Villa*/
+    font-family:Georgia;
+    background-color:#3f4442;
+    color:white;
+    opacity:.75;
+    font-weight:normal;
+    font-size:25px;
+    position: absolute;
+    top: 190px;
+    left:-150px;
+    margin-left:110px;
+}
+
+.VersiliaTextSm{ /*Explore The Map*/
+    font-family:Georgia;
+    background-color:#3f4442;
+    color:white;
+    opacity:.75;
+    font-weight:normal;
+    font-size:25px;
+    position: absolute;
+    top: 220px;
+    left:-70px;
+    margin-left:110px;
+}
+
+.jumbotron{
+    padding:0px 0px 0px 0px;
+    background-color:#d2d2d2;
+
+}
+
+
+/*All Middle Cells*/
+.FirstSection{
+   border: 2px solid white;
+   margin: 0px;
+   padding: 0px;
+  
+}
+
+.SecondSection{
+   border: 2px solid white;
+   margin: 0px;
+   padding: 0px;
+  
+}
+.ThirdSection{
+   border: 2px solid white;
+   margin: 0px;
+   padding: 0px;
+}
+   
+
+.blueMap{
+    height:400px;
+    background-attachment:scroll;
+    padding:0px;
+    margin-left:-95px;
+    
+}
+
+.coverPicture{
+    height:430px;
+    width:681px;
+    background-attachment:scroll;
+    padding:0px;
+}
+
+  
+}
+/*Navbar CSS*/
+
+/*NavBar center text*/
+.navbar-brand{
+    text-align:center;
+    background-color:#4fb1a2;
+    font-family:'Cambria Math';
+    
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    padding-bottom:5px;
+    padding-top:15px;
+    font-size: 14px;
+    line-height: 12px;
+    margin: 2px 4px 2px 4px;
+}
+
+.navbar-default .navbar-brand {
+    color:#ffffff;
+    border-bottom:2px;
+    border:10px;
+}
+
+.navbar-default
+.navbar-nav >li>a{
+    text-align:center;
+    color:#454841;
+    position:static;
+    margin-left:80px;
+    padding-left:2em;
+    background-origin:padding-box;
+    font-family:Calibri;
+    font-weight:bold;
+    box-sizing: border-box;
+}
+
+
