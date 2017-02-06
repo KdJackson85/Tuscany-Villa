@@ -60,9 +60,10 @@
 /*Second Picture Text*/
 .VersiliaTextLg { /*Find Your Tuscany Villa*/
     font-family:Georgia;
-    background-color:#3f4442;
-    color:white;
-    opacity:.75;
+    background-color:white;
+    color:#3f4442;
+    opacity:.90;
+    border: solid 2px white;
     font-weight:normal;
     font-size:25px;
     position: absolute;
@@ -73,9 +74,10 @@
 
 .VersiliaTextSm{ /*Explore The Map*/
     font-family:Georgia;
-    background-color:#3f4442;
-    color:white;
-    opacity:.75;
+    background-color:white;
+    color:#3f4442;
+    opacity:.90;
+    border: solid 2px white;
     font-weight:normal;
     font-size:25px;
     position: absolute;
@@ -113,7 +115,7 @@
    
 
 .blueMap{
-    height:400px;
+    max-height:400px;
     background-attachment:scroll;
     padding:0px;
     margin-left:-95px;
@@ -121,7 +123,7 @@
 }
 
 .coverPicture{
-    height:430px;
+    height:348px;
     width:681px;
     background-attachment:scroll;
     padding:0px;
@@ -163,6 +165,7 @@
     position:static;
     margin-left:80px;
     padding-left:2em;
+    border-bottom:0px;
     background-origin:padding-box;
     font-family:Calibri;
     font-weight:bold;
